@@ -22,6 +22,16 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://rehberpos.com",
     locale: "tr_TR",
+    // Favicon ve ikon meta etiketleri
+    icons: {
+      icon: '/favicon.ico',
+      shortcut: '/favicon.ico',
+      apple: '/apple-touch-icon.png',
+      other: {
+        rel: 'apple-touch-icon-precomposed',
+        url: '/apple-touch-icon-precomposed.png',
+      },
+    },
     images: [
       {
         url: "https://rehberpos.com/images/og-image.jpg",
